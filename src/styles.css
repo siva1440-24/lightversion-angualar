@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  /* Dark Theme */
+  /* background: radial-gradient(circle at top left, #181023, #0b0519); */
+  /* white theme */
+  background: radial-gradient(circle at top left, #f1eff3, #9965dd);
+  /* Dark Theme */
+  /* color: #c3b3d8; */
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}

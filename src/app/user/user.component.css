@@ -1,0 +1,54 @@
+#users {
+  list-style: none;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.35rem 0.5rem;
+  /* Dark Theme */
+  background-color: #433352;
+/* whiteTheme */
+  background-color: white;
+  /* Dark Theme */
+  /* color: #c3b3d1; */
+  /* whiteTheme */
+  color: #150722 ;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  width: 100%;
+  min-width: 10rem;
+  text-align: left;
+  border-color: green;
+  /* white theme */
+  border: 2px solid whitesmoke;
+  border-radius: 6px;
+}
+
+button:hover,
+button:active,
+.active {
+  /* whiteTheme */
+  background-color: #9965dd; 
+  /* color: #150722;  Dark Theme */
+  color: white;
+  border: 2px solid #433352;
+  border-radius: 6px;
+
+}
+
+img {
+  width: 2rem;
+  object-fit: contain;
+  border-radius: 50%;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+}
+
+span {
+  margin: 0;
+  padding: 0;
+  font-size: 0.8rem;
+  font-weight: normal;
+}
